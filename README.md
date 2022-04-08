@@ -5,7 +5,11 @@ This example project uses:
 
 ## Getting Started
 
-First, run the development server:
+First, copy `.env.local.example` as `.env.local`. 
+
+Then, set `PANDASCORE_API_TOKEN` to your PandaScore API token value. Your token can be found in your [account](https://app.pandascore.co/dashboard/)
+
+Finally, run the development server:
 
 ```bash
 npm run dev
@@ -14,10 +18,6 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You will find all the example code in `pages/index.js`. 
-
-Copy `.env.local.example` as `.env.local` and set `PANDASCORE_API_TOKEN` to your PandaScore API token value. Your token can be found in your [PandaScore account](https://app.pandascore.co/dashboard/)
 
 ## Deploy on Vercel
 
