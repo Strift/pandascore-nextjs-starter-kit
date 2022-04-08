@@ -15,7 +15,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You will find all the example code in `pages/index.js`. Make sure to update `.env.local` to add your own PandaScore API token.
+You will find all the example code in `pages/index.js`. 
+
+Copy `.env.local.example` as `.env.local` and set `PANDASCORE_API_TOKEN` to your PandaScore API token value. Your token can be found in your [PandaScore account](https://app.pandascore.co/dashboard/)
 
 ## Deploy on Vercel
 
